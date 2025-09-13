@@ -206,7 +206,7 @@ def generar_documento_word(form_id, datos):
 
 def main():
     st.title("⚓ Mayordomo General IA - Gestión de Formularios")
-    st.subtitle("Sistema Inteligente de Formularios Oficiales de la Armada")
+    st.markdown("**Sistema Inteligente de Formularios Oficiales de la Armada**")
     
     inicializar_session_state()
     
